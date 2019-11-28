@@ -5,6 +5,6 @@ let b = 'red';
 
 // Your code
 
-console.log(a); // Should equal 'red'
-console.log(b); // Should equal 'green'
+console.log(a) // Should equal 'red'
+console.log(b) // Should equal 'green'
 

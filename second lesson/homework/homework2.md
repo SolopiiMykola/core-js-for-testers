@@ -16,8 +16,8 @@ Example:
 -> Please, enter your first name
 <- Mykola
 -> Hello, Mykola, nice to meet you. Please enter your birthday year
-<- 1960
--> 59 years
+<- 1900
+-> 119 years
 
 
 2. Write a script which will convert number into corresponding letter, and print(or alert) result:
