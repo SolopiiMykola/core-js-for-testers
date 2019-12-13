@@ -32,7 +32,7 @@ function readFile(filename) {
   let result = new Promise(function(resolve, reject) {
     filesystem.readFile(
       // relative path to file
-      `./6/data/${filename}`,
+      `./data/${filename}`,
       // reading options
       { encoding: "UTF8" },
       // special function called callback:
@@ -103,8 +103,11 @@ readFile("1.json")
   .then(function(content3) {
     console.log("File 3.json returned", content3);
   })
-  .catch(function(err) {
+  .catch(function(err) { // caych any fail from any .then
     console.log("Oh no, we have error!");
     console.log(err);
+  })
+  .finally(function() {
+    console.log('clean DB')
   })
 console.log("Done scheduling async command");
