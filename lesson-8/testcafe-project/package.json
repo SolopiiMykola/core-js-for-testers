@@ -1,0 +1,15 @@
+{
+  "name": "testcafeproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:ci": "testcafe chrome:headless"
+  },
+  "author": "Mykola",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.7.0",
+    "faker": "4.1.0"
+  }
+}

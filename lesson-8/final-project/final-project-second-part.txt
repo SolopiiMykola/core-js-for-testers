@@ -1,0 +1,2 @@
+You need to create account via API call - http://ip-5236.sunline.net.ua:38015/create_account using "request-promise-native" package
+And verify that user is logged in using TestCafe methods and assertions.

@@ -1,0 +1,17 @@
+{
+  "name": "mycryptoserver",
+  "version": "1.0.0",
+  "description": "Server to display crypto rates",
+  "scripts": {
+    "start": "nody crypto.js"
+  },
+  "author": "Mykola <solopiy@i.ua>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "request": "2.88.0",
+    "pug": "2.0.4",
+    "request-promise-native": "1.0.8"
+  }
+}
+
